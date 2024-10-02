@@ -19,7 +19,7 @@ Before you begin, ensure you have met the following requirements:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/language-translator.git
+   git clone https://github.com/KEERTHIKUMAR517/language-translator.git
    cd language-translator
    ```
 
