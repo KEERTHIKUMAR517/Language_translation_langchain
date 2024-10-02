@@ -22,7 +22,7 @@ model = ChatGroq(
 )
 
 # Create a chat prompt template
-system_template = "You are a helpful assistant that translates {input_language} to {output_language}. just give me the translated text if non-english text  give transliteration in parenthesis"
+system_template = "You are a helpful assistant that translates {input_language} to {output_language}. just give me the translated text along with transliteration in parenthesis"
 human_template = "{text}"
 
 chat_prompt = ChatPromptTemplate.from_messages([
