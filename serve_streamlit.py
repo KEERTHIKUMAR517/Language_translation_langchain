@@ -8,7 +8,12 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-groq_api_key = os.getenv("GROQ_API_KEY")
+#for testing in your local use this method 
+#groq_api_key = os.getenv("GROQ_API_KEY")
+
+#This is for deployment through streamlit
+
+groq_api_key = st.secrets['GROQ_API_KEY']
 
 # Initialize the model
 model = ChatGroq(
